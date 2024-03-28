@@ -1,0 +1,167 @@
+
+.Home-container {
+  margin-left: 250px;
+  padding: 10px;
+  background-color: black;
+  background-size: cover;
+  
+}
+.graph-bg{
+  background-color: rgb(31, 30, 30);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  
+}
+.graph-heading{
+  color: white;
+  font-family: 'Montserrat';
+  padding: 10px;
+}
+
+.header-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headings h1 {
+  color: #fff;
+}
+
+.headings h1 span {
+  color: #ffaf45;
+}
+
+.headings p {
+  color: #fff;
+  font-size:25px;
+}
+
+.headings p span {
+  color: #15f5ba;
+}
+
+.btn {
+  background-color: #15f56f;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  color: #fff;
+}
+
+.market-Overview-card {
+  padding: 10px;
+  background-color:  #25262c;
+  border-radius: 10px;
+ 
+}
+
+.market-overview-header-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.market-overview-header-part h1 {
+  color: #fff;
+  font-size: 16px;
+}
+
+.market-overview-header-part p {
+  color: #fff;
+  font-size: 16px;
+}
+.ResponsiveContainer{
+  width:100%;
+  height:400;
+}
+
+@media screen and (max-width: 768px) {
+   .Home-container{
+    margin-left: 45px;
+   }
+
+   .ResponsiveContainer{
+    height: 300px;
+   }
+}
+
+/*CSS for crypto container*/
+
+.crypto-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.crypto-container-heading{
+  color:#fff;
+  font-weight:600;
+}
+.crypto-card {
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgb(31, 30, 30);
+}
+.crypto-card h2{
+  color:#fff;
+}
+.crypto-card p{
+  color:#fff;
+}
+.crypto-card:hover{
+  border:3px Solid #15f56f;
+  cursor: pointer;
+}
+.btc{
+  color: gold;
+  font-size: 26px;
+}
+.prices-container{
+  display: flex;
+  justify-content: space-between;
+}
+.info{
+  color: green;
+  margin: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  outline: none;
+}
+
+.trade-btn{
+  background-color: green;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 3px;
+  width: 60px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .crypto-card {
+    width: calc(50% - 40px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .crypto-card {
+    width: calc(100% - 40px);
+  }
+}
+
+
